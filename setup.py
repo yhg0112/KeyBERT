@@ -19,9 +19,9 @@ docs_packages = [
 ]
 
 flair_packages = [
-    "transformers==3.5.1",
-    "torch>=1.4.0,<1.7.1",
-    "flair==0.7"
+    "transformers>=3.5.1",
+    "torch>=1.4.0",
+    "flair>=0.7"
 ]
 
 spacy_packages = [
@@ -48,10 +48,10 @@ with open("README.md", "r", encoding='utf-8') as fh:
 setup(
     name="keybert_yhg",
     packages=find_packages(exclude=["notebooks", "docs"]),
-    version="0.5.0",
-    author="Maarten Grootendorst",
-    author_email="maartengrootendorst@gmail.com",
-    description="KeyBERT performs keyword extraction with state-of-the-art transformer models.",
+    version="0.5.1",
+    author="Maarten Grootendorst, Hyeongu Yun(modifier)",
+    author_email="maartengrootendorst@gmail.com, youaredead@snu.ac.kr",
+    description="KeyBERT performs keyword extraction with state-of-the-art transformer models., modified by yhg",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/MaartenGr/keyBERT",

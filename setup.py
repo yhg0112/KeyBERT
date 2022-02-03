@@ -46,7 +46,7 @@ with open("README.md", "r", encoding='utf-8') as fh:
     long_description = fh.read()
 
 setup(
-    name="keybert",
+    name="keybert_yhg",
     packages=find_packages(exclude=["notebooks", "docs"]),
     version="0.5.0",
     author="Maarten Grootendorst",
